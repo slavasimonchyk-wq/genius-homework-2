@@ -4,28 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекареня</title>
+    <!-- <style>
+      h1 {
+        background-color: blueviolet;
+      }
+    </style> -->
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
       <nav>
         <a href="#">
-          <img src="./images/logo.svg" alt="Логотип сучасної пекарені">
+          <img src="./images/logo.svg" alt="Логотип сучасної пекарені" />
         </a>
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a class="link" href="#traditions-section">Наші традиції</a></li>
+          <li><a class="link" href="#chef-section">Шеф-кухарі</a></li>
+          <li><a class="link" href="#formats-section">Формати</a></li>
+          <li><a class="link" href="#contact-section">Контакти</a></li>
         </ul>
       </nav>
-      <button type="button">Замовити дзвінок</button>
+      <button class="button" type="button">Замовити дзвінок</button>
     </header>
     <main>
-      <section>
-        <h1>Сучасна пекарня</h1>
+      <section class="main-style-header">
+        <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
       </section>
+      <section id="traditions-section"></section>
       <section>
-        <ul>
+        <ul class="advantages-list">
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
           <li>Досвідчена управлінська команда</li>
@@ -40,9 +47,13 @@
           <span>5 хвилин і замовлення готове</span>. А ще у наших пекарень
           стильний дизайн та висока якість обслуговування!
         </p>
-        <img src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони із посмішкою">
+        <img
+          src="./images/baker-man.jpg"
+          alt="Чоловік пекар дивиться на батони із посмішкою"
+        />
       </section>
       <section>
+        <section id="chef-section"></section>
         <h2>Наші найкращі шеф - кухарі</h2>
         <ul>
           <li>
@@ -53,7 +64,10 @@
               <p>Я випичу для вас найсмачніші вироби</p>
             </article>
           </li>
-          <img src="./images/Nastya.jpg" alt="Дівчинаб що посміхається з випічкою на тарілці">
+          <img
+            src="./images/Nastya.jpg"
+            alt="Дівчина, що посміхається з випічкою на тарілці"
+          />
           <li>
             <article>
               <h3>Влад</h3>
@@ -65,28 +79,35 @@
               <p>Я зроблю для вас унікальну начинку на будь який смак!</p>
             </article>
           </li>
-          <img src="./images/Vlad.jpg" alt="Чоловік, що викочує корж">
+          <img src="./images/Vlad.jpg" alt="Чоловік, що викочує корж" />
         </ul>
       </section>
       <section>
         <h2>Формати</h2>
+        <section id="formats-section"></section>
         <li>
           <article>
             <h3 lang="en">Walrus</h3>
           </article>
-          <img src="./images/Walrus.jpg" alt="Бокове фото прилавки магазину випічки">
+          <img
+            src="./images/Walrus.jpg"
+            alt="Бокове фото прилавки магазину випічки"
+          />
         </li>
         <li>
           <article>
             <h3 lang="en">Horseshoe</h3>
           </article>
-          <img src="./images/Horseshoe.jpg" alt="Фронтальне фото прилавка магазину випічки">
+          <img
+            src="./images/Horseshoe.jpg"
+            alt="Фронтальне фото прилавка магазину випічки"
+          />
         </li>
         <li>
           <article>
             <h3 lang="en">Handlebar</h3>
           </article>
-          <img src="./images/Handlebar.jpg" alt="Вітрина з випічкою">
+          <img src="./images/Handlebar.jpg" alt="Вітрина з випічкою" />
         </li>
       </section>
       <section>
@@ -96,7 +117,7 @@
     <footer>
       <nav>
         <a href="#">
-          <img src="./images/logo.svg" alt="Логотип сучасної пекарені">
+          <img src="./images/logo.svg" alt="Логотип сучасної пекарені" />
         </a>
         <ul>
           <li><a href="#">Наші традиції</a></li>
@@ -106,16 +127,15 @@
         </ul>
       </nav>
       <address>
+        <section id="contact-section"></section>
         <ul>
           <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
           <li>
             <a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a>
           </li>
           <li>
-            <a
-              href="https://maps.app.goo.gl/FvKTpgGk7PVXv2R18"
-              target="_blank"
-            >Україна, м. Київ, вул. Січових Стрільців 54</a
+            <a href="https://maps.app.goo.gl/FvKTpgGk7PVXv2R18" target="_blank"
+              >Україна, м. Київ, вул. Січових Стрільців 54</a
             >
           </li>
           <li>
